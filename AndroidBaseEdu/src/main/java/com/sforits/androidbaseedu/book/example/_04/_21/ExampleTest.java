@@ -19,6 +19,7 @@ public class ExampleTest {
             @Override
             public void shout() {
                 // 从jdk1.8开始, 局部内部类,匿名内部类可以访问非final的局部变量
+                // 在jdk1.8之前, 只能访问final变量
                 System.out.println(name + " 学猫叫");
             }
         });
