@@ -2,8 +2,9 @@ package com.sforits.androidbaseedu;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(
-                "test"
-        );
+        CharSequence sc = "";
+        StringBuffer sb = new StringBuffer();
+
+        String st = "";
     }
 }
