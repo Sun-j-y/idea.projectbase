@@ -14,6 +14,7 @@ public class TestExample {
         String text = "http://www.baidu.com";
         // 嵌入二维码的图片路径
         //String imgPath = "C:\\Users\\Administrator\\Pictures\\img\\dog.jpg";
+
         // 生成的二维码的路径及名称
         String destPath = "D:\\" + System.currentTimeMillis() + ".jpg";
         //生成二维码
